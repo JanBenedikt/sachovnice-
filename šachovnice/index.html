@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+    <title>Šachovnice</title>
+</head>
+<body>
+<h1>Vytvoř si tabulku!</h1>
+<form id  action="table">
+<label for="pocet">Počet Řádků</label>
+<input type="cislo" id="pocet" min="1" value="3">
+<label for="sloupec">Počet Sloupců</label>
+<input type="cislo"  id="sloupec" min="1" value="3">
+<button type="submit">Vytvořit tabulku</button>
+<form>
+    <div id="table-container"></div> 
+</body>
+</html>
