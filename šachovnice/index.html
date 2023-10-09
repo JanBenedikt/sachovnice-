@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+    <title>Šachovnice</title>
+</head>
+<body>
+<div id="container">
+<h1>Vytvoř si tabulku!</h1>
+<form id="table">
+<label for="pocet">Počet Řádků</label>
+<input type="number" id="pocet" min="1" >
+<label for="sloupec">Počet Sloupců</label>
+<input type="cislo"  id="sloupec" min="1" >
+<button onclick="generateChessboard()">Vytvořit tabulku</button>
+<form>
+    <div id="chessboard"></div> 
+</div>
+</body>
+</html>
